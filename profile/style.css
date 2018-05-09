@@ -7,63 +7,62 @@ body {
 }
 
 h2, h3 {
-  font-family: 'Fjalla One', sans-serif;
-  color: #2E2E2E
+  color: #213012
 }
 
 h1 {
-  font-size: 70px;
-  color: #171717;
+  font-size: 50px;
+  color: #16200C;
   font-family: 'Anton', sans-serif;
   letter-spacing: 8px;
   line-height: 1;
-  /*text-decoration: underline;*/
 }
 
 p {
-  color: #171717;
-  font-size: 20px
+  color: #2B4018;
+  font-size: 15px
 }
 
 h2 {
-  font-size: 30px
+  font-size: 18px;
+  font-family: 'Montaga', serif;
 }
 
 h3 {
-  font-size: 70px;
+  font-size: 30px;
   text-decoration: underline;
+  font-family: 'Anton', sans-serif;
 }
 
 a {
-  color: #33658A;
+  color: #F8BE78;
   text-decoration: none
 }
 
 a:hover {
-  /*text-decoration: underline;*/
-  color: #1C384C;
+  color: #B48143;
 }
 
 div {
-  background: rgb(252, 255, 254);
+  background: #E4F7F8;
   margin: 30px;
-  padding: 40px;
-  border: 1px solid #9CC7DF;
-  border-radius: 3px;
+  padding: 23px;
+  border: 1px solid #A8C686;
+  border-radius: 15px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-  width: 1100px;   /* This sets the width */
+  width: 800px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
   background: #BFEDEC;
   padding: 1px;
-  border: 1px solid #9CC7DF
+  border: 1px solid #A8C686
 }
 
 .img {
   border-radius: 50%;
-  border: 15px solid #BFEDEC
+  border: 5px solid #A8C686
 }
 
 @media (max-width: 960px) {
@@ -87,29 +86,50 @@ div {
 
 .profile {
   border-radius: 50%;
-  border: 3px solid #BFEDEC
+  border: 5px solid #A8C686
 }
 
 .icon {
   padding: 5px 5px;
 }
 
-.heading-table {
+/*.heading-table {
   font-size: 50px;
-}
-
-/*.table-stretch {
-  width: 50%
 }*/
 
-.table-input {
-  padding: 60px;
-  font-size: 20px
+.table-text {
+  width: 25%;
+ /* text-align: center;*/
+ /* padding: 60px;
+  font-size: 20px*/
 }
 
 .table-img {
-  padding: 60px;
+  width: 25%;
 }
+
+#sidebar {
+  position: fixed;
+  width: 30px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+  background-color: #F8BE78;
+  border: 1px solid #BFEDEC;
+}
+
+.sidebar-icon {
+  color: #2B4018;
+}
+
+.sidebar-icon:hover {
+  color: #A8C686;
+}
+
+/*#page-content {
+  margin-left: 300px;
+}*/
 
 
 
